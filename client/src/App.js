@@ -9,7 +9,7 @@ import {
 import { setContext } from '@apollo/client/link/context';
 
 import { Provider } from 'react-redux';
-import store from './store'
+import store from './utils/store'
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
