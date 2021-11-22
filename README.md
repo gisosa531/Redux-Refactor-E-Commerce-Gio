@@ -41,13 +41,14 @@ Thanks to:
 * [https://react-redux.js.org/api/provider](https://react-redux.js.org/api/provider)
 * []()
 
-## GitHub Repo 
+## GitHub Repo & Heroku
 * [https://github.com/gisosa531/Redux-Refactor-E-Commerce-Gio](https://github.com/gisosa531/Redux-Refactor-E-Commerce-Gio)
 
+* [https://gio-shop-redux.herokuapp.com/](https://gio-shop-redux.herokuapp.com/)
 
 ## Images/Video
-Walkthrough:
-<img src=" " alt=" ">
+Images:
+<img src="./client/src/assets/images/E-commerceMain.png " alt="Main page of E-commerce app ">
 
 ## Contact Information
 If you have any problems concerning the repo, please file an issue or email me at 

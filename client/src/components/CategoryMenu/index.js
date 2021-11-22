@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
+//Commented out GlobalState to use hooks
 // import { useStoreContext } from '../../utils/GlobalState';
 import { useSelector, useDispatch } from 'react-redux';
 import {
@@ -19,6 +20,7 @@ function CategoryMenu() {
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
 
   useEffect(() => {
+    // Checks if categoryData exists or changed due to useQuery so that dispatch() runs
     if (categoryData) {
       dispatch({
         type: UPDATE_CATEGORIES,
